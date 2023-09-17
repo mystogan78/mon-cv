@@ -1,0 +1,30 @@
+table{
+    width:1160px;
+    
+
+}
+tr:first-child img{
+    border-radius: 50%;
+    box-shadow: 0 0 30px white;
+}
+
+tr:first-child{
+    text-align: center;
+    background-color: #782221;
+    
+}
+tr:first-child h1{
+    color: white;
+}
+tr:first-child h3{
+    color:white;
+}
+tr:nth-child(2){
+    background-color: black;
+    
+    
+}
+tr:nth-child(2) a{
+    color: white;
+    
+}
