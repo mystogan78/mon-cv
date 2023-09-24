@@ -1,30 +1,180 @@
-table{
-    width:1160px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
     
-
 }
-tr:first-child img{
+header{
+    width: 1160px;
+    background-color: #782221;
+   
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    
     border-radius: 50%;
-    box-shadow: 0 0 30px white;
+    box-shadow: 0 0 30px black;
+    margin-top: 15px;
 }
 
-tr:first-child{
-    text-align: center;
+.name{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0.7em;
+    font-family: 'Lato', sans-serif;
+}
+
+.coordinate{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    background-color: black; 
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+
+}
+    
+a{
+    color: white;
+    background-color:#2c1d27;
+
+}
+.address{
+    margin-left: 15px;
+}
+.mail{
+    margin-right: 170px;
+}
+.tel{
+    margin-right: 20px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.information-principal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: first baseline;
     background-color: #782221;
     
 }
-tr:first-child h1{
+.section-left{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color:#782221 ;
+    
+
+}
+
+.Propos{
+    background-color: #dbc2a4;
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.Parlées{
+    background-color: #dbc2a4;
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+
+}
+.Intérêt{
+    background-color: #dbc2a4;
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.div{
     color: white;
+    margin-left: 15px;
+    margin-right: 30px;
+    font-family: 'Raleway', sans-serif;
 }
-tr:first-child h3{
-    color:white;
-}
-tr:nth-child(2){
-    background-color: black;
-    
-    
-}
-tr:nth-child(2) a{
+.liste{
     color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.hobbies{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.section-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-right:#2c1d27 ;
+    width: 759px;
+
+}
+.Expériences{
+    background-color: #dbc2a4;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 0%;
+    font-family: 'Lato', sans-serif;
+
     
 }
+.Formations{
+    background-color: #dbc2a4;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 0%;
+    font-family: 'Lato', sans-serif;
+}
+.Compétences{
+    background-color: #dbc2a4;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 0%;
+    font-family: 'Lato', sans-serif;
+}
+h5{
+    margin-left: 30px;
+    margin-bottom: 0%;
+    font-family: 'Lato', sans-serif;
+
+}
+.date{
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.mission{
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.établissement{
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.list{
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+footer{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #782221;
+}
+.créer-le{
+    color: white;
+font-family: 'Raleway', sans-serif;
+    
+}
+
